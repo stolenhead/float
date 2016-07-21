@@ -1,0 +1,21 @@
+.ye{
+ background-color: yellow;
+ width: 120px ;
+ height: 90px;
+ float: left;
+}
+.blu{
+ background-color: blue;
+ width: 120px ;
+ height: 90px;
+ float: left;
+}
+.pi{
+ background-color: pink;
+ width: 120px ;
+ height: 90px;
+ float: left;
+}
+.padre{
+	border: 1px solid black;
+}

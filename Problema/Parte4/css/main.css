@@ -1,0 +1,37 @@
+.ye{
+ background-color: yellow;
+ width: 120px ;
+ height: 90px;
+ float: left;
+}
+body::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.blu{
+ background-color: blue;
+ width: 120px ;
+ height: 90px;
+ float: left;
+}
+.pi{
+ background-color: pink;
+ width: 120px ;
+ height: 90px;
+ float: left;
+}
+.padre{
+	border: 1px solid black;
+	width: 500px;
+}
+.cf {
+  *zoom: 1;
+}
+.cf:before, .cf:after {
+  content: " ";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
