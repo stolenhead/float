@@ -1,19 +1,31 @@
-.ye{
- background-color: yellow;
- }
-.blu{
- background-color: blue;
- }
-.pi{
- background-color: pink;
- }
-.padre div{
- width: 120px ;
- height: 90px;
- float: left;
+.caja {
+	width: 600px;
+	border: 1px solid #CCC;
 }
-.padre{
-	border: 1px solid black;
-	width: 500px;
-	overflow: auto;
+
+.bloque {
+	width: 25%;
+	height: 100px;
+	float: left;
+}
+
+.amarillo {
+	background-color: #FFFF00;
+}
+
+.azul {
+	background-color: #3A81BA;
+}
+
+.rojo {
+	background-color: #ED2251;
+}
+
+.clearfix:before, .clearfix:after {
+   content: " ";
+   display: table;
+}
+
+.clearfix:after {
+   clear: both;
 }
